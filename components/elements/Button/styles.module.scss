@@ -2,10 +2,23 @@
   text-decoration: none;
   font-family: var(--ff-secondary);
   font-weight: 700;
-  padding: 0.75em;
+  padding: 0.75em 1.5em;
   border-radius: 1.5em;
   cursor: pointer;
 
+}
+
+.login {
+  // only for login button
+  margin-left: auto;
+
+  color: var(--white);
+
+  &:hover,
+  &:active {
+    color: var(--white);
+    background: #fff3;
+  }
 }
 
 .primaryCTA {

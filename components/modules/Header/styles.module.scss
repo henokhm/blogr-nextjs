@@ -1,0 +1,28 @@
+.header {
+  padding: 1em 1em 6em;
+  color: var(--white);
+  text-align: center;
+  border-bottom-left-radius: 6em;
+
+  background: var(--bg-1);
+
+  // background: var(--bg-1);
+  // background: url("images/bg-pattern-intro.svg"), var(--gradient-1);
+  // background-size: 300%;
+  // background-repeat: no-repeat;
+}
+
+.mainSubtitle {
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+
+.ctaButtons {
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+}
+
+.ctaButtons > * + * {
+  margin-left: 1em;
+}

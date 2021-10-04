@@ -1,0 +1,67 @@
+.navMenuItem { 
+  
+  list-style: none;
+  padding-left: 0;
+  position: relative;
+  
+
+  & > span {
+    display: inline-block;
+    padding: 1em 0;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 2em;
+  }
+
+  & > span:hover {
+    text-decoration: underline;
+  }
+
+}
+
+.chevron {
+  transition: all 0.25s ease-out;
+  padding-left: 0.5em;
+  height: 0.5em;
+}
+
+.subMenu {
+  display: none;
+
+  list-style: none;
+  padding: 1em;
+  background: var(--white);
+  border-radius: 0.5em;
+  text-align: left;
+  position: absolute;
+  left: 0.5em;
+
+  // setting bold on hover causes layout shift
+  width: 9em;
+
+  a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.5em 0;
+    color: var(--very-dark-grayish-blue);
+
+    &:hover{
+      font-weight: bold;
+    }
+  }
+
+}
+
+
+.navMenuItem:hover{
+  .chevron {
+    transform: rotateX(180deg);
+  }
+
+  .subMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+} 

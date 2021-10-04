@@ -1,7 +1,6 @@
 import Head from "next/head";
-import Link from "next/link";
 
-import ButtonPrimaryCTA from "../components/elements/ButtonPrimaryCTA";
+import Header from "../components/modules/Header";
 
 export default function Home() {
   return (
@@ -11,8 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <main>
-        <h1>Hello World!</h1>
-        <ButtonPrimaryCTA text="Click Me!" linkTo="#" />
+        <Header />
       </main>
     </div>
   );
