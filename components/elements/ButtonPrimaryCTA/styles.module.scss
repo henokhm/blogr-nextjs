@@ -1,0 +1,18 @@
+.button_primary_cta {
+  text-decoration: none;
+  font-family: var(--ff-secondary);
+  font-weight: 700;
+  color: var(--very-light-red);
+  background: var(--white);
+  border: var(--white) 2px solid;
+  padding: 0.75em;
+  border-radius: 1.5em;
+  cursor: pointer;
+
+  &:hover,
+  &:active {
+    color: var(--white);
+    background: #fff3;
+    border: #fff3 2px solid;
+  }
+}

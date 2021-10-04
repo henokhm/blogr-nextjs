@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
 
+import ButtonPrimaryCTA from "../components/elements/ButtonPrimaryCTA";
+
 export default function Home() {
   return (
     <div className="container">
@@ -10,6 +12,7 @@ export default function Home() {
       </Head>
       <main>
         <h1>Hello World!</h1>
+        <ButtonPrimaryCTA text="Click Me!" linkTo="#" />
       </main>
     </div>
   );
