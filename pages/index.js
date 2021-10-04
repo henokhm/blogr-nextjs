@@ -5,8 +5,8 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>Frontend Mentor | Blogr</title>
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <main>
         <h1>Hello World!</h1>
